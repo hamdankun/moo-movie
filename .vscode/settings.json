@@ -1,0 +1,13 @@
+{
+    "window.zoomLevel": 1,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.renderWhitespace": "all",
+    "terminal.integrated.shell.osx": "/bin/bash",
+    "files.associations": {
+        "*.html": "handlebars"
+    },
+    "editor.suggestSelection": "first",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "eslint.enable": false
+}

@@ -1,0 +1,96 @@
+.container
+    display: flex
+    position: relative
+    width: 100vw
+    height: 300px
+    padding: 0
+    margin: 0
+    .backgroundDrop
+        width: 100%
+        height: 300px
+        object-fit: cover
+        position: absolute
+        top: 0
+        left: 0
+        -webkit-filter: blur(5px)
+        filter: blur(5px)
+    .overlay
+        position: absolute
+        width: 100%
+        height: 300px
+        background-color: #000
+        opacity: 0.5
+    
+    .searchContainerWrapper
+        display: flex
+        position: absolute
+        width: 100%
+        height: 300px
+        color: #fff
+        justify-content: center
+        align-items: center
+        flex-direction: column
+        p
+            font-size: 1.2rem
+    
+    .inputSearchWrapper
+        width: 50%
+        padding: 0.5rem
+        background-color: #fff
+        border-radius: 10px
+        margin-top: 1rem
+        position: relative
+
+        input
+            width: 100%
+            border: 0
+            font-size: 1.2rem
+            color: #bababa
+            &:focus
+                outline: none
+            &::placeholder
+                color: #bababa
+
+        .searchSuggestion
+            position: absolute
+            list-style-type: none
+            padding: 0
+            margin: 0
+            background-color: #fff
+            width: 100%
+            left: 0
+            top: 32px
+            color: #bababb
+            font-size: 1.2rem
+            z-index: 999
+            max-height: 20rem
+            overflow-y: scroll
+            li
+                cursor: pointer
+                padding: 10px
+                border-bottom: 1px solid #ddd
+        
+        .filterDateRow
+            display: flex
+            border-top: 1px solid #ddd
+            padding: 0.5rem
+            margin-top: 1rem
+
+            .btnFilter
+                border: none
+                background-color:#348eeb
+                border-radius: 10px
+                color: #fff
+                font-weight: bold
+                width: 10rem
+                cursor: pointer
+            
+            .btnClear
+                border: none
+                background-color:#a83e32
+                border-radius: 10px
+                color: #fff
+                font-weight: bold
+                width: 10rem
+                cursor: pointer
+                margin-left: 0.5rem
