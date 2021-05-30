@@ -18,7 +18,7 @@ Project was bootstrapped with [Create React App](https://github.com/facebook/cre
 Clone Repo
 
 ```
-git clone https://gitlab.com/hamdankun/moo-movie.git
+git clone https://github.com/hamdankun/moo-movie.git
 ```
 
 Go To Project Directory
